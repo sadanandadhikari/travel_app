@@ -4,6 +4,7 @@ import Destination from './destination/Destination'
 import Hotel from './hotel/Hotel'
 import WhyChoose from './whyChoose/WhyChoose'
 import Reviews from './reviews/Reviews'
+import News from './news/News'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Hotel />
       <WhyChoose />
       <Reviews />
+      <News />
     </div>
   )
 }
