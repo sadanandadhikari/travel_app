@@ -6,6 +6,7 @@ import WhyChoose from './whyChoose/WhyChoose'
 import Reviews from './reviews/Reviews'
 import News from './news/News'
 import Newsletter from './newsletter/Newsletter'
+import Footer from './footer/Footer'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Reviews />
       <News />
       <Newsletter />
+      <Footer />
     </div>
   )
 }
