@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import {Poppins} from 'next/font/google'
 import ResponsiveNavBar from "@/components/home/navbar/ResponsiveNavBar";
+import Footer from "@/components/home/footer/Footer";
+import ScrollToTop from "@/components/helper/ScrollToTop";
 
 
 const font = Poppins({
@@ -25,6 +27,9 @@ export default function RootLayout({
       >
         <ResponsiveNavBar />
         {children}
+        <Footer />
+        <ScrollToTop />
+
       </body>
     </html>
   );
